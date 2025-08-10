@@ -11,7 +11,7 @@ __pycache__/
 .ipynb_checkpoints/
 
 # Machine Learning Models and Data
-*.joblib
+# *.joblib  <-- Add a '#' here or delete the line
 *.pkl
 *.h5
 *.bin
