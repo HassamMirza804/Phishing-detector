@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Phishing Detector</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>URL Phishing Detector</h1>
+        <p>Enter a URL to check if it's a potential phishing link.</p>
+        <form id="url-form">
+            <input type="text" id="url-input" name="url" placeholder="e.g., https://secure-bank.co/login" required>
+            <button type="submit">Analyze URL</button>
+        </form>
+        <div id="loading" class="hidden">
+            <div class="spinner"></div>
+            <p>Analyzing...</p>
+        </div>
+        <div id="results-container" class="hidden">
+            <h2>Analysis Results</h2>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
