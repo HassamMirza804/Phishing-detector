@@ -6,9 +6,10 @@ A real-time web application to identify and mitigate phishing threats in URLs, t
 
 ### 🎥 Demo Video
 
+Here is a quick demo of the application in action.
 
+https://github.com/user-attachments/assets/99d68d77-4b67-447f-b84a-48df5ce53250
 
----
 
 ### ✨ Features
 
